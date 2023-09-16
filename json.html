@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var gods = [
+        { name: "naresh", age: 20 },
+        { name: "dil", age: 30 },
+      ];
+      console.log(typeof gods);
+      var ss = JSON.stringify(gods);
+      console.log(typeof ss);
+      var another = JSON.parse(ss);
+      console.log(typeof another);
+    </script>
+  </body>
+</html>
