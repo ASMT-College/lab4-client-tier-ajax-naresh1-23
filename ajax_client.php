@@ -10,7 +10,6 @@
     <input type="text" name="dogs" onkeyup = "get_data_using_ajax()" id="dogs">
     <div id="dogs_result"></div>
     <script>
-
         function get_data_using_ajax(){
             var q = document.getElementById('dogs').value
             var xmlhttp = new XMLHttpRequest();
